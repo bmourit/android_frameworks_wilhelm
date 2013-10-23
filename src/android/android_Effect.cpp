@@ -610,7 +610,7 @@ android::status_t android_fx_getParam(android::sp<android::AudioEffect> pFx,
         }
     }
     
-    delete[] buf32
+    delete[] buf32;
     return status;
 }
 
